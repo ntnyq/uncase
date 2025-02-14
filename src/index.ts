@@ -102,3 +102,6 @@ export function getCaseConverter(
     }
   }
 }
+
+// re-export
+export * from 'change-case'
