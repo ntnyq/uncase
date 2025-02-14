@@ -24,6 +24,8 @@ pnpm add uncase
 
 ## Usage
 
+### case converter
+
 ```ts
 import { getCaseConverter } from 'uncase'
 
@@ -31,11 +33,18 @@ const result = getCaseConverter('camelCase')('hello-world')
 
 console.log(result)
 // => { input: 'hello-world', changed: true, output: 'helloWorld' }
+```
 
-const isPascalCase = !getCaseConverter('pascalCase')('hello-world').changed
+### case validator
 
-console.log(isPascalCase)
+```ts
+import { isCamelCase, isPascalCase } from 'uncase/is'
+
+console.log(isCamelCase('hello-world'))
 // => false
+
+console.log(isPascalCase('HelloWorld'))
+// => true
 ```
 
 ## Credits

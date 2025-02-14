@@ -1,0 +1,685 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`isCamelCase 1`] = `
+[
+  {
+    "isValid": true,
+    "value": "camelCase",
+  },
+  {
+    "isValid": false,
+    "value": "kebab-case",
+  },
+  {
+    "isValid": false,
+    "value": "PascalCase",
+  },
+  {
+    "isValid": false,
+    "value": "snake_case",
+  },
+  {
+    "isValid": false,
+    "value": "Train-Case",
+  },
+  {
+    "isValid": false,
+    "value": "Capital Case",
+  },
+  {
+    "isValid": false,
+    "value": "CONSTANT_CASE",
+  },
+  {
+    "isValid": false,
+    "value": "dot.case",
+  },
+  {
+    "isValid": false,
+    "value": "no case",
+  },
+  {
+    "isValid": false,
+    "value": "Pascal_Snake_Case",
+  },
+  {
+    "isValid": false,
+    "value": "path/case",
+  },
+  {
+    "isValid": false,
+    "value": "Sentence case",
+  },
+  {
+    "isValid": false,
+    "value": "",
+  },
+]
+`;
+
+exports[`isCapitalCase 1`] = `
+[
+  {
+    "isValid": false,
+    "value": "camelCase",
+  },
+  {
+    "isValid": false,
+    "value": "kebab-case",
+  },
+  {
+    "isValid": false,
+    "value": "PascalCase",
+  },
+  {
+    "isValid": false,
+    "value": "snake_case",
+  },
+  {
+    "isValid": false,
+    "value": "Train-Case",
+  },
+  {
+    "isValid": true,
+    "value": "Capital Case",
+  },
+  {
+    "isValid": false,
+    "value": "CONSTANT_CASE",
+  },
+  {
+    "isValid": false,
+    "value": "dot.case",
+  },
+  {
+    "isValid": false,
+    "value": "no case",
+  },
+  {
+    "isValid": false,
+    "value": "Pascal_Snake_Case",
+  },
+  {
+    "isValid": false,
+    "value": "path/case",
+  },
+  {
+    "isValid": false,
+    "value": "Sentence case",
+  },
+  {
+    "isValid": false,
+    "value": "",
+  },
+]
+`;
+
+exports[`isConstantCase 1`] = `
+[
+  {
+    "isValid": false,
+    "value": "camelCase",
+  },
+  {
+    "isValid": false,
+    "value": "kebab-case",
+  },
+  {
+    "isValid": false,
+    "value": "PascalCase",
+  },
+  {
+    "isValid": false,
+    "value": "snake_case",
+  },
+  {
+    "isValid": false,
+    "value": "Train-Case",
+  },
+  {
+    "isValid": false,
+    "value": "Capital Case",
+  },
+  {
+    "isValid": true,
+    "value": "CONSTANT_CASE",
+  },
+  {
+    "isValid": false,
+    "value": "dot.case",
+  },
+  {
+    "isValid": false,
+    "value": "no case",
+  },
+  {
+    "isValid": false,
+    "value": "Pascal_Snake_Case",
+  },
+  {
+    "isValid": false,
+    "value": "path/case",
+  },
+  {
+    "isValid": false,
+    "value": "Sentence case",
+  },
+  {
+    "isValid": false,
+    "value": "",
+  },
+]
+`;
+
+exports[`isDotCase 1`] = `
+[
+  {
+    "isValid": false,
+    "value": "camelCase",
+  },
+  {
+    "isValid": false,
+    "value": "kebab-case",
+  },
+  {
+    "isValid": false,
+    "value": "PascalCase",
+  },
+  {
+    "isValid": false,
+    "value": "snake_case",
+  },
+  {
+    "isValid": false,
+    "value": "Train-Case",
+  },
+  {
+    "isValid": false,
+    "value": "Capital Case",
+  },
+  {
+    "isValid": false,
+    "value": "CONSTANT_CASE",
+  },
+  {
+    "isValid": true,
+    "value": "dot.case",
+  },
+  {
+    "isValid": false,
+    "value": "no case",
+  },
+  {
+    "isValid": false,
+    "value": "Pascal_Snake_Case",
+  },
+  {
+    "isValid": false,
+    "value": "path/case",
+  },
+  {
+    "isValid": false,
+    "value": "Sentence case",
+  },
+  {
+    "isValid": false,
+    "value": "",
+  },
+]
+`;
+
+exports[`isKebabCase 1`] = `
+[
+  {
+    "isValid": false,
+    "value": "camelCase",
+  },
+  {
+    "isValid": true,
+    "value": "kebab-case",
+  },
+  {
+    "isValid": false,
+    "value": "PascalCase",
+  },
+  {
+    "isValid": false,
+    "value": "snake_case",
+  },
+  {
+    "isValid": false,
+    "value": "Train-Case",
+  },
+  {
+    "isValid": false,
+    "value": "Capital Case",
+  },
+  {
+    "isValid": false,
+    "value": "CONSTANT_CASE",
+  },
+  {
+    "isValid": false,
+    "value": "dot.case",
+  },
+  {
+    "isValid": false,
+    "value": "no case",
+  },
+  {
+    "isValid": false,
+    "value": "Pascal_Snake_Case",
+  },
+  {
+    "isValid": false,
+    "value": "path/case",
+  },
+  {
+    "isValid": false,
+    "value": "Sentence case",
+  },
+  {
+    "isValid": false,
+    "value": "",
+  },
+]
+`;
+
+exports[`isNoCase 1`] = `
+[
+  {
+    "isValid": false,
+    "value": "camelCase",
+  },
+  {
+    "isValid": false,
+    "value": "kebab-case",
+  },
+  {
+    "isValid": false,
+    "value": "PascalCase",
+  },
+  {
+    "isValid": false,
+    "value": "snake_case",
+  },
+  {
+    "isValid": false,
+    "value": "Train-Case",
+  },
+  {
+    "isValid": false,
+    "value": "Capital Case",
+  },
+  {
+    "isValid": false,
+    "value": "CONSTANT_CASE",
+  },
+  {
+    "isValid": false,
+    "value": "dot.case",
+  },
+  {
+    "isValid": true,
+    "value": "no case",
+  },
+  {
+    "isValid": false,
+    "value": "Pascal_Snake_Case",
+  },
+  {
+    "isValid": false,
+    "value": "path/case",
+  },
+  {
+    "isValid": false,
+    "value": "Sentence case",
+  },
+  {
+    "isValid": false,
+    "value": "",
+  },
+]
+`;
+
+exports[`isPascalCase 1`] = `
+[
+  {
+    "isValid": false,
+    "value": "camelCase",
+  },
+  {
+    "isValid": false,
+    "value": "kebab-case",
+  },
+  {
+    "isValid": true,
+    "value": "PascalCase",
+  },
+  {
+    "isValid": false,
+    "value": "snake_case",
+  },
+  {
+    "isValid": false,
+    "value": "Train-Case",
+  },
+  {
+    "isValid": false,
+    "value": "Capital Case",
+  },
+  {
+    "isValid": false,
+    "value": "CONSTANT_CASE",
+  },
+  {
+    "isValid": false,
+    "value": "dot.case",
+  },
+  {
+    "isValid": false,
+    "value": "no case",
+  },
+  {
+    "isValid": false,
+    "value": "Pascal_Snake_Case",
+  },
+  {
+    "isValid": false,
+    "value": "path/case",
+  },
+  {
+    "isValid": false,
+    "value": "Sentence case",
+  },
+  {
+    "isValid": false,
+    "value": "",
+  },
+]
+`;
+
+exports[`isPascalSnakeCase 1`] = `
+[
+  {
+    "isValid": false,
+    "value": "camelCase",
+  },
+  {
+    "isValid": false,
+    "value": "kebab-case",
+  },
+  {
+    "isValid": false,
+    "value": "PascalCase",
+  },
+  {
+    "isValid": false,
+    "value": "snake_case",
+  },
+  {
+    "isValid": false,
+    "value": "Train-Case",
+  },
+  {
+    "isValid": false,
+    "value": "Capital Case",
+  },
+  {
+    "isValid": false,
+    "value": "CONSTANT_CASE",
+  },
+  {
+    "isValid": false,
+    "value": "dot.case",
+  },
+  {
+    "isValid": false,
+    "value": "no case",
+  },
+  {
+    "isValid": true,
+    "value": "Pascal_Snake_Case",
+  },
+  {
+    "isValid": false,
+    "value": "path/case",
+  },
+  {
+    "isValid": false,
+    "value": "Sentence case",
+  },
+  {
+    "isValid": false,
+    "value": "",
+  },
+]
+`;
+
+exports[`isPathCase 1`] = `
+[
+  {
+    "isValid": false,
+    "value": "camelCase",
+  },
+  {
+    "isValid": false,
+    "value": "kebab-case",
+  },
+  {
+    "isValid": false,
+    "value": "PascalCase",
+  },
+  {
+    "isValid": false,
+    "value": "snake_case",
+  },
+  {
+    "isValid": false,
+    "value": "Train-Case",
+  },
+  {
+    "isValid": false,
+    "value": "Capital Case",
+  },
+  {
+    "isValid": false,
+    "value": "CONSTANT_CASE",
+  },
+  {
+    "isValid": false,
+    "value": "dot.case",
+  },
+  {
+    "isValid": false,
+    "value": "no case",
+  },
+  {
+    "isValid": false,
+    "value": "Pascal_Snake_Case",
+  },
+  {
+    "isValid": true,
+    "value": "path/case",
+  },
+  {
+    "isValid": false,
+    "value": "Sentence case",
+  },
+  {
+    "isValid": false,
+    "value": "",
+  },
+]
+`;
+
+exports[`isSentenceCase 1`] = `
+[
+  {
+    "isValid": false,
+    "value": "camelCase",
+  },
+  {
+    "isValid": false,
+    "value": "kebab-case",
+  },
+  {
+    "isValid": false,
+    "value": "PascalCase",
+  },
+  {
+    "isValid": false,
+    "value": "snake_case",
+  },
+  {
+    "isValid": false,
+    "value": "Train-Case",
+  },
+  {
+    "isValid": false,
+    "value": "Capital Case",
+  },
+  {
+    "isValid": false,
+    "value": "CONSTANT_CASE",
+  },
+  {
+    "isValid": false,
+    "value": "dot.case",
+  },
+  {
+    "isValid": false,
+    "value": "no case",
+  },
+  {
+    "isValid": false,
+    "value": "Pascal_Snake_Case",
+  },
+  {
+    "isValid": false,
+    "value": "path/case",
+  },
+  {
+    "isValid": true,
+    "value": "Sentence case",
+  },
+  {
+    "isValid": false,
+    "value": "",
+  },
+]
+`;
+
+exports[`isSnakeCase 1`] = `
+[
+  {
+    "isValid": false,
+    "value": "camelCase",
+  },
+  {
+    "isValid": false,
+    "value": "kebab-case",
+  },
+  {
+    "isValid": false,
+    "value": "PascalCase",
+  },
+  {
+    "isValid": true,
+    "value": "snake_case",
+  },
+  {
+    "isValid": false,
+    "value": "Train-Case",
+  },
+  {
+    "isValid": false,
+    "value": "Capital Case",
+  },
+  {
+    "isValid": false,
+    "value": "CONSTANT_CASE",
+  },
+  {
+    "isValid": false,
+    "value": "dot.case",
+  },
+  {
+    "isValid": false,
+    "value": "no case",
+  },
+  {
+    "isValid": false,
+    "value": "Pascal_Snake_Case",
+  },
+  {
+    "isValid": false,
+    "value": "path/case",
+  },
+  {
+    "isValid": false,
+    "value": "Sentence case",
+  },
+  {
+    "isValid": false,
+    "value": "",
+  },
+]
+`;
+
+exports[`isTrainCase 1`] = `
+[
+  {
+    "isValid": false,
+    "value": "camelCase",
+  },
+  {
+    "isValid": false,
+    "value": "kebab-case",
+  },
+  {
+    "isValid": false,
+    "value": "PascalCase",
+  },
+  {
+    "isValid": false,
+    "value": "snake_case",
+  },
+  {
+    "isValid": true,
+    "value": "Train-Case",
+  },
+  {
+    "isValid": false,
+    "value": "Capital Case",
+  },
+  {
+    "isValid": false,
+    "value": "CONSTANT_CASE",
+  },
+  {
+    "isValid": false,
+    "value": "dot.case",
+  },
+  {
+    "isValid": false,
+    "value": "no case",
+  },
+  {
+    "isValid": false,
+    "value": "Pascal_Snake_Case",
+  },
+  {
+    "isValid": false,
+    "value": "path/case",
+  },
+  {
+    "isValid": false,
+    "value": "Sentence case",
+  },
+  {
+    "isValid": false,
+    "value": "",
+  },
+]
+`;

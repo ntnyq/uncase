@@ -32,13 +32,29 @@ export type CaseType =
   | 'trainCase'
 
 /**
- * Type for case converter
+ * Case convert result
  */
-export type CaseConverter = (input: string) => {
+export type CaseConvertResult = {
+  /**
+   * input value
+   */
   input: string
+
+  /**
+   * whether output has changed from input
+   */
   changed: boolean
+
+  /**
+   * converted value
+   */
   output: string
 }
+
+/**
+ * Case converter
+ */
+export type CaseConverter = (input: string) => CaseConvertResult
 
 /**
  * CaseType to case convert method map
@@ -66,7 +82,7 @@ export const convertersMap: Record<
  *
  * @param caseType - case utils name
  * @param options - case utils options
- * @returns input, output and whether changed
+ * @returns case convert result {@link CaseConvertResult}
  *
  * @see {@link https://github.com/blakeembrey/change-case}
  *
@@ -79,11 +95,6 @@ export const convertersMap: Record<
  *
  * console.log(result)
  * // => { input: 'hello-world', changed: true, output: 'helloWorld' }
- *
- * const isPascalCase = !getCaseConverter('pascalCase')('hello-world').changed
- *
- * console.log(isPascalCase)
- * // => false
  * ```
  */
 export function getCaseConverter(
