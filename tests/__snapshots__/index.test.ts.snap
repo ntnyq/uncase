@@ -1,0 +1,781 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`to camelCase 1`] = `
+[
+  {
+    "changed": false,
+    "input": "camelCase",
+    "output": "camelCase",
+  },
+  {
+    "changed": true,
+    "input": "kebab-case",
+    "output": "kebabCase",
+  },
+  {
+    "changed": true,
+    "input": "PascalCase",
+    "output": "pascalCase",
+  },
+  {
+    "changed": true,
+    "input": "snake_case",
+    "output": "snakeCase",
+  },
+  {
+    "changed": true,
+    "input": "Train-Case",
+    "output": "trainCase",
+  },
+  {
+    "changed": true,
+    "input": "Capital Case",
+    "output": "capitalCase",
+  },
+  {
+    "changed": true,
+    "input": "CONSTANT_CASE",
+    "output": "constantCase",
+  },
+  {
+    "changed": true,
+    "input": "dot.case",
+    "output": "dotCase",
+  },
+  {
+    "changed": true,
+    "input": "no case",
+    "output": "noCase",
+  },
+  {
+    "changed": true,
+    "input": "Pascal_Snake_Case",
+    "output": "pascalSnakeCase",
+  },
+  {
+    "changed": true,
+    "input": "path/case",
+    "output": "pathCase",
+  },
+  {
+    "changed": true,
+    "input": "Sentence case",
+    "output": "sentenceCase",
+  },
+]
+`;
+
+exports[`to capitalCase 1`] = `
+[
+  {
+    "changed": true,
+    "input": "camelCase",
+    "output": "Camel Case",
+  },
+  {
+    "changed": true,
+    "input": "kebab-case",
+    "output": "Kebab Case",
+  },
+  {
+    "changed": true,
+    "input": "PascalCase",
+    "output": "Pascal Case",
+  },
+  {
+    "changed": true,
+    "input": "snake_case",
+    "output": "Snake Case",
+  },
+  {
+    "changed": true,
+    "input": "Train-Case",
+    "output": "Train Case",
+  },
+  {
+    "changed": false,
+    "input": "Capital Case",
+    "output": "Capital Case",
+  },
+  {
+    "changed": true,
+    "input": "CONSTANT_CASE",
+    "output": "Constant Case",
+  },
+  {
+    "changed": true,
+    "input": "dot.case",
+    "output": "Dot Case",
+  },
+  {
+    "changed": true,
+    "input": "no case",
+    "output": "No Case",
+  },
+  {
+    "changed": true,
+    "input": "Pascal_Snake_Case",
+    "output": "Pascal Snake Case",
+  },
+  {
+    "changed": true,
+    "input": "path/case",
+    "output": "Path Case",
+  },
+  {
+    "changed": true,
+    "input": "Sentence case",
+    "output": "Sentence Case",
+  },
+]
+`;
+
+exports[`to constantCase 1`] = `
+[
+  {
+    "changed": true,
+    "input": "camelCase",
+    "output": "CAMEL_CASE",
+  },
+  {
+    "changed": true,
+    "input": "kebab-case",
+    "output": "KEBAB_CASE",
+  },
+  {
+    "changed": true,
+    "input": "PascalCase",
+    "output": "PASCAL_CASE",
+  },
+  {
+    "changed": true,
+    "input": "snake_case",
+    "output": "SNAKE_CASE",
+  },
+  {
+    "changed": true,
+    "input": "Train-Case",
+    "output": "TRAIN_CASE",
+  },
+  {
+    "changed": true,
+    "input": "Capital Case",
+    "output": "CAPITAL_CASE",
+  },
+  {
+    "changed": false,
+    "input": "CONSTANT_CASE",
+    "output": "CONSTANT_CASE",
+  },
+  {
+    "changed": true,
+    "input": "dot.case",
+    "output": "DOT_CASE",
+  },
+  {
+    "changed": true,
+    "input": "no case",
+    "output": "NO_CASE",
+  },
+  {
+    "changed": true,
+    "input": "Pascal_Snake_Case",
+    "output": "PASCAL_SNAKE_CASE",
+  },
+  {
+    "changed": true,
+    "input": "path/case",
+    "output": "PATH_CASE",
+  },
+  {
+    "changed": true,
+    "input": "Sentence case",
+    "output": "SENTENCE_CASE",
+  },
+]
+`;
+
+exports[`to dotCase 1`] = `
+[
+  {
+    "changed": true,
+    "input": "camelCase",
+    "output": "camel.case",
+  },
+  {
+    "changed": true,
+    "input": "kebab-case",
+    "output": "kebab.case",
+  },
+  {
+    "changed": true,
+    "input": "PascalCase",
+    "output": "pascal.case",
+  },
+  {
+    "changed": true,
+    "input": "snake_case",
+    "output": "snake.case",
+  },
+  {
+    "changed": true,
+    "input": "Train-Case",
+    "output": "train.case",
+  },
+  {
+    "changed": true,
+    "input": "Capital Case",
+    "output": "capital.case",
+  },
+  {
+    "changed": true,
+    "input": "CONSTANT_CASE",
+    "output": "constant.case",
+  },
+  {
+    "changed": false,
+    "input": "dot.case",
+    "output": "dot.case",
+  },
+  {
+    "changed": true,
+    "input": "no case",
+    "output": "no.case",
+  },
+  {
+    "changed": true,
+    "input": "Pascal_Snake_Case",
+    "output": "pascal.snake.case",
+  },
+  {
+    "changed": true,
+    "input": "path/case",
+    "output": "path.case",
+  },
+  {
+    "changed": true,
+    "input": "Sentence case",
+    "output": "sentence.case",
+  },
+]
+`;
+
+exports[`to kebabCase 1`] = `
+[
+  {
+    "changed": true,
+    "input": "camelCase",
+    "output": "camel-case",
+  },
+  {
+    "changed": false,
+    "input": "kebab-case",
+    "output": "kebab-case",
+  },
+  {
+    "changed": true,
+    "input": "PascalCase",
+    "output": "pascal-case",
+  },
+  {
+    "changed": true,
+    "input": "snake_case",
+    "output": "snake-case",
+  },
+  {
+    "changed": true,
+    "input": "Train-Case",
+    "output": "train-case",
+  },
+  {
+    "changed": true,
+    "input": "Capital Case",
+    "output": "capital-case",
+  },
+  {
+    "changed": true,
+    "input": "CONSTANT_CASE",
+    "output": "constant-case",
+  },
+  {
+    "changed": true,
+    "input": "dot.case",
+    "output": "dot-case",
+  },
+  {
+    "changed": true,
+    "input": "no case",
+    "output": "no-case",
+  },
+  {
+    "changed": true,
+    "input": "Pascal_Snake_Case",
+    "output": "pascal-snake-case",
+  },
+  {
+    "changed": true,
+    "input": "path/case",
+    "output": "path-case",
+  },
+  {
+    "changed": true,
+    "input": "Sentence case",
+    "output": "sentence-case",
+  },
+]
+`;
+
+exports[`to noCase 1`] = `
+[
+  {
+    "changed": true,
+    "input": "camelCase",
+    "output": "camel case",
+  },
+  {
+    "changed": true,
+    "input": "kebab-case",
+    "output": "kebab case",
+  },
+  {
+    "changed": true,
+    "input": "PascalCase",
+    "output": "pascal case",
+  },
+  {
+    "changed": true,
+    "input": "snake_case",
+    "output": "snake case",
+  },
+  {
+    "changed": true,
+    "input": "Train-Case",
+    "output": "train case",
+  },
+  {
+    "changed": true,
+    "input": "Capital Case",
+    "output": "capital case",
+  },
+  {
+    "changed": true,
+    "input": "CONSTANT_CASE",
+    "output": "constant case",
+  },
+  {
+    "changed": true,
+    "input": "dot.case",
+    "output": "dot case",
+  },
+  {
+    "changed": false,
+    "input": "no case",
+    "output": "no case",
+  },
+  {
+    "changed": true,
+    "input": "Pascal_Snake_Case",
+    "output": "pascal snake case",
+  },
+  {
+    "changed": true,
+    "input": "path/case",
+    "output": "path case",
+  },
+  {
+    "changed": true,
+    "input": "Sentence case",
+    "output": "sentence case",
+  },
+]
+`;
+
+exports[`to pascalCase 1`] = `
+[
+  {
+    "changed": true,
+    "input": "camelCase",
+    "output": "CamelCase",
+  },
+  {
+    "changed": true,
+    "input": "kebab-case",
+    "output": "KebabCase",
+  },
+  {
+    "changed": false,
+    "input": "PascalCase",
+    "output": "PascalCase",
+  },
+  {
+    "changed": true,
+    "input": "snake_case",
+    "output": "SnakeCase",
+  },
+  {
+    "changed": true,
+    "input": "Train-Case",
+    "output": "TrainCase",
+  },
+  {
+    "changed": true,
+    "input": "Capital Case",
+    "output": "CapitalCase",
+  },
+  {
+    "changed": true,
+    "input": "CONSTANT_CASE",
+    "output": "ConstantCase",
+  },
+  {
+    "changed": true,
+    "input": "dot.case",
+    "output": "DotCase",
+  },
+  {
+    "changed": true,
+    "input": "no case",
+    "output": "NoCase",
+  },
+  {
+    "changed": true,
+    "input": "Pascal_Snake_Case",
+    "output": "PascalSnakeCase",
+  },
+  {
+    "changed": true,
+    "input": "path/case",
+    "output": "PathCase",
+  },
+  {
+    "changed": true,
+    "input": "Sentence case",
+    "output": "SentenceCase",
+  },
+]
+`;
+
+exports[`to pascalSnakeCase 1`] = `
+[
+  {
+    "changed": true,
+    "input": "camelCase",
+    "output": "Camel_Case",
+  },
+  {
+    "changed": true,
+    "input": "kebab-case",
+    "output": "Kebab_Case",
+  },
+  {
+    "changed": true,
+    "input": "PascalCase",
+    "output": "Pascal_Case",
+  },
+  {
+    "changed": true,
+    "input": "snake_case",
+    "output": "Snake_Case",
+  },
+  {
+    "changed": true,
+    "input": "Train-Case",
+    "output": "Train_Case",
+  },
+  {
+    "changed": true,
+    "input": "Capital Case",
+    "output": "Capital_Case",
+  },
+  {
+    "changed": true,
+    "input": "CONSTANT_CASE",
+    "output": "Constant_Case",
+  },
+  {
+    "changed": true,
+    "input": "dot.case",
+    "output": "Dot_Case",
+  },
+  {
+    "changed": true,
+    "input": "no case",
+    "output": "No_Case",
+  },
+  {
+    "changed": false,
+    "input": "Pascal_Snake_Case",
+    "output": "Pascal_Snake_Case",
+  },
+  {
+    "changed": true,
+    "input": "path/case",
+    "output": "Path_Case",
+  },
+  {
+    "changed": true,
+    "input": "Sentence case",
+    "output": "Sentence_Case",
+  },
+]
+`;
+
+exports[`to pathCase 1`] = `
+[
+  {
+    "changed": true,
+    "input": "camelCase",
+    "output": "camel/case",
+  },
+  {
+    "changed": true,
+    "input": "kebab-case",
+    "output": "kebab/case",
+  },
+  {
+    "changed": true,
+    "input": "PascalCase",
+    "output": "pascal/case",
+  },
+  {
+    "changed": true,
+    "input": "snake_case",
+    "output": "snake/case",
+  },
+  {
+    "changed": true,
+    "input": "Train-Case",
+    "output": "train/case",
+  },
+  {
+    "changed": true,
+    "input": "Capital Case",
+    "output": "capital/case",
+  },
+  {
+    "changed": true,
+    "input": "CONSTANT_CASE",
+    "output": "constant/case",
+  },
+  {
+    "changed": true,
+    "input": "dot.case",
+    "output": "dot/case",
+  },
+  {
+    "changed": true,
+    "input": "no case",
+    "output": "no/case",
+  },
+  {
+    "changed": true,
+    "input": "Pascal_Snake_Case",
+    "output": "pascal/snake/case",
+  },
+  {
+    "changed": false,
+    "input": "path/case",
+    "output": "path/case",
+  },
+  {
+    "changed": true,
+    "input": "Sentence case",
+    "output": "sentence/case",
+  },
+]
+`;
+
+exports[`to sentenceCase 1`] = `
+[
+  {
+    "changed": true,
+    "input": "camelCase",
+    "output": "Camel case",
+  },
+  {
+    "changed": true,
+    "input": "kebab-case",
+    "output": "Kebab case",
+  },
+  {
+    "changed": true,
+    "input": "PascalCase",
+    "output": "Pascal case",
+  },
+  {
+    "changed": true,
+    "input": "snake_case",
+    "output": "Snake case",
+  },
+  {
+    "changed": true,
+    "input": "Train-Case",
+    "output": "Train case",
+  },
+  {
+    "changed": true,
+    "input": "Capital Case",
+    "output": "Capital case",
+  },
+  {
+    "changed": true,
+    "input": "CONSTANT_CASE",
+    "output": "Constant case",
+  },
+  {
+    "changed": true,
+    "input": "dot.case",
+    "output": "Dot case",
+  },
+  {
+    "changed": true,
+    "input": "no case",
+    "output": "No case",
+  },
+  {
+    "changed": true,
+    "input": "Pascal_Snake_Case",
+    "output": "Pascal snake case",
+  },
+  {
+    "changed": true,
+    "input": "path/case",
+    "output": "Path case",
+  },
+  {
+    "changed": false,
+    "input": "Sentence case",
+    "output": "Sentence case",
+  },
+]
+`;
+
+exports[`to snakeCase 1`] = `
+[
+  {
+    "changed": true,
+    "input": "camelCase",
+    "output": "camel_case",
+  },
+  {
+    "changed": true,
+    "input": "kebab-case",
+    "output": "kebab_case",
+  },
+  {
+    "changed": true,
+    "input": "PascalCase",
+    "output": "pascal_case",
+  },
+  {
+    "changed": false,
+    "input": "snake_case",
+    "output": "snake_case",
+  },
+  {
+    "changed": true,
+    "input": "Train-Case",
+    "output": "train_case",
+  },
+  {
+    "changed": true,
+    "input": "Capital Case",
+    "output": "capital_case",
+  },
+  {
+    "changed": true,
+    "input": "CONSTANT_CASE",
+    "output": "constant_case",
+  },
+  {
+    "changed": true,
+    "input": "dot.case",
+    "output": "dot_case",
+  },
+  {
+    "changed": true,
+    "input": "no case",
+    "output": "no_case",
+  },
+  {
+    "changed": true,
+    "input": "Pascal_Snake_Case",
+    "output": "pascal_snake_case",
+  },
+  {
+    "changed": true,
+    "input": "path/case",
+    "output": "path_case",
+  },
+  {
+    "changed": true,
+    "input": "Sentence case",
+    "output": "sentence_case",
+  },
+]
+`;
+
+exports[`to trainCase 1`] = `
+[
+  {
+    "changed": true,
+    "input": "camelCase",
+    "output": "Camel-Case",
+  },
+  {
+    "changed": true,
+    "input": "kebab-case",
+    "output": "Kebab-Case",
+  },
+  {
+    "changed": true,
+    "input": "PascalCase",
+    "output": "Pascal-Case",
+  },
+  {
+    "changed": true,
+    "input": "snake_case",
+    "output": "Snake-Case",
+  },
+  {
+    "changed": false,
+    "input": "Train-Case",
+    "output": "Train-Case",
+  },
+  {
+    "changed": true,
+    "input": "Capital Case",
+    "output": "Capital-Case",
+  },
+  {
+    "changed": true,
+    "input": "CONSTANT_CASE",
+    "output": "Constant-Case",
+  },
+  {
+    "changed": true,
+    "input": "dot.case",
+    "output": "Dot-Case",
+  },
+  {
+    "changed": true,
+    "input": "no case",
+    "output": "No-Case",
+  },
+  {
+    "changed": true,
+    "input": "Pascal_Snake_Case",
+    "output": "Pascal-Snake-Case",
+  },
+  {
+    "changed": true,
+    "input": "path/case",
+    "output": "Path-Case",
+  },
+  {
+    "changed": true,
+    "input": "Sentence case",
+    "output": "Sentence-Case",
+  },
+]
+`;
