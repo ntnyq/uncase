@@ -1,7 +1,7 @@
 {
   "name": "uncase",
   "type": "module",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "packageManager": "pnpm@10.4.0",
   "description": "Wrapper of [change-case](https://github.com/blakeembrey/change-case) to create a converter, validator and etc.",
   "keywords": [
