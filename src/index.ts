@@ -15,7 +15,7 @@ import {
 import type { Options } from 'change-case'
 
 /**
- * availabel change-case utils
+ * Type for all availabel [change-case](https://github.com/blakeembrey/change-case) method in `camelCase`
  */
 export type CaseType =
   | 'camelCase'
@@ -31,6 +31,9 @@ export type CaseType =
   | 'snakeCase'
   | 'trainCase'
 
+/**
+ * Type for case converter
+ */
 export type CaseConverter = (input: string) => {
   input: string
   changed: boolean
@@ -38,7 +41,7 @@ export type CaseConverter = (input: string) => {
 }
 
 /**
- * change-case utils map
+ * CaseType to case convert method map
  */
 export const convertersMap: Record<
   CaseType,
@@ -59,13 +62,29 @@ export const convertersMap: Record<
 }
 
 /**
- * get a converter and convert given input
+ * Get a converter by caseType and convert the given input
  *
  * @param caseType - case utils name
  * @param options - case utils options
  * @returns input, output and whether changed
  *
  * @see {@link https://github.com/blakeembrey/change-case}
+ *
+ * @example
+ *
+ * ```ts
+ * import { getCaseConverter } from 'uncase'
+ *
+ * const result = getCaseConverter('camelCase')('hello-world')
+ *
+ * console.log(result)
+ * // => { input: 'hello-world', changed: true, output: 'helloWorld' }
+ *
+ * const isPascalCase = !getCaseConverter('pascalCase')('hello-world').changed
+ *
+ * console.log(isPascalCase)
+ * // => false
+ * ```
  */
 export function getCaseConverter(
   caseType: CaseType,
