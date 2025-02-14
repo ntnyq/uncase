@@ -31,6 +31,12 @@ export type CaseType =
   | 'snakeCase'
   | 'trainCase'
 
+export type CaseConverter = (input: string) => {
+  input: string
+  changed: boolean
+  output: string
+}
+
 /**
  * change-case utils map
  */
@@ -61,7 +67,10 @@ export const convertersMap: Record<
  *
  * @see {@link https://github.com/blakeembrey/change-case}
  */
-export function getCaseConverter(caseType: CaseType, options: Options = {}) {
+export function getCaseConverter(
+  caseType: CaseType,
+  options: Options = {},
+): CaseConverter {
   const convert = convertersMap[caseType]
 
   return (input: string) => {
