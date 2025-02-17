@@ -6,7 +6,7 @@
 [![CODECOV](https://codecov.io/github/ntnyq/uncase/branch/main/graph/badge.svg?token=YGDMMEUY4M)](https://codecov.io/github/ntnyq/uncase)
 [![LICENSE](https://img.shields.io/github/license/ntnyq/uncase.svg)](https://github.com/ntnyq/uncase/blob/main/LICENSE)
 
-Wrapper of [change-case](https://github.com/blakeembrey/change-case) to create a converter, validator and etc.
+Wrapper of [change-case](https://github.com/blakeembrey/change-case) to create case converter, validator and etc.
 
 ## Install
 

@@ -15,5 +15,5 @@ export const CASE_FIXTURES: Record<CaseType, string> = {
   sentenceCase: 'Sentence case',
 }
 
-export const allCaseTypes = Object.keys(CASE_FIXTURES)
-export const allCaseValues = Object.values(CASE_FIXTURES)
+export const allCaseTypes: string[] = Object.keys(CASE_FIXTURES)
+export const allCaseValues: string[] = Object.values(CASE_FIXTURES)
