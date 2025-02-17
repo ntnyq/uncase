@@ -8,19 +8,7 @@ exports[`isCamelCase 1`] = `
   },
   {
     "isValid": false,
-    "value": "kebab-case",
-  },
-  {
-    "isValid": false,
-    "value": "PascalCase",
-  },
-  {
-    "isValid": false,
-    "value": "snake_case",
-  },
-  {
-    "isValid": false,
-    "value": "Train-Case",
+    "value": "Capital Case",
   },
   {
     "isValid": false,
@@ -32,7 +20,27 @@ exports[`isCamelCase 1`] = `
   },
   {
     "isValid": false,
+    "value": "CONSTANT_CASE",
+  },
+  {
+    "isValid": false,
     "value": "dot.case",
+  },
+  {
+    "isValid": false,
+    "value": "dot.case",
+  },
+  {
+    "isValid": false,
+    "value": "kebab-case",
+  },
+  {
+    "isValid": false,
+    "value": "kebab-case",
+  },
+  {
+    "isValid": false,
+    "value": "no case",
   },
   {
     "isValid": false,
@@ -44,11 +52,47 @@ exports[`isCamelCase 1`] = `
   },
   {
     "isValid": false,
+    "value": "PascalCase",
+  },
+  {
+    "isValid": false,
+    "value": "PascalCase",
+  },
+  {
+    "isValid": false,
+    "value": "Pascal_Snake_Case",
+  },
+  {
+    "isValid": false,
+    "value": "path/case",
+  },
+  {
+    "isValid": false,
     "value": "path/case",
   },
   {
     "isValid": false,
     "value": "Sentence case",
+  },
+  {
+    "isValid": false,
+    "value": "Sentence case",
+  },
+  {
+    "isValid": false,
+    "value": "snake_case",
+  },
+  {
+    "isValid": false,
+    "value": "snake_case",
+  },
+  {
+    "isValid": false,
+    "value": "Train-Case",
+  },
+  {
+    "isValid": false,
+    "value": "Train-Case",
   },
   {
     "isValid": false,
@@ -64,20 +108,8 @@ exports[`isCapitalCase 1`] = `
     "value": "camelCase",
   },
   {
-    "isValid": false,
-    "value": "kebab-case",
-  },
-  {
-    "isValid": false,
-    "value": "PascalCase",
-  },
-  {
-    "isValid": false,
-    "value": "snake_case",
-  },
-  {
-    "isValid": false,
-    "value": "Train-Case",
+    "isValid": true,
+    "value": "Capital Case",
   },
   {
     "isValid": true,
@@ -89,7 +121,27 @@ exports[`isCapitalCase 1`] = `
   },
   {
     "isValid": false,
+    "value": "CONSTANT_CASE",
+  },
+  {
+    "isValid": false,
     "value": "dot.case",
+  },
+  {
+    "isValid": false,
+    "value": "dot.case",
+  },
+  {
+    "isValid": false,
+    "value": "kebab-case",
+  },
+  {
+    "isValid": false,
+    "value": "kebab-case",
+  },
+  {
+    "isValid": false,
+    "value": "no case",
   },
   {
     "isValid": false,
@@ -101,11 +153,47 @@ exports[`isCapitalCase 1`] = `
   },
   {
     "isValid": false,
+    "value": "PascalCase",
+  },
+  {
+    "isValid": false,
+    "value": "PascalCase",
+  },
+  {
+    "isValid": false,
+    "value": "Pascal_Snake_Case",
+  },
+  {
+    "isValid": false,
+    "value": "path/case",
+  },
+  {
+    "isValid": false,
     "value": "path/case",
   },
   {
     "isValid": false,
     "value": "Sentence case",
+  },
+  {
+    "isValid": false,
+    "value": "Sentence case",
+  },
+  {
+    "isValid": false,
+    "value": "snake_case",
+  },
+  {
+    "isValid": false,
+    "value": "snake_case",
+  },
+  {
+    "isValid": false,
+    "value": "Train-Case",
+  },
+  {
+    "isValid": false,
+    "value": "Train-Case",
   },
   {
     "isValid": false,
@@ -122,23 +210,15 @@ exports[`isConstantCase 1`] = `
   },
   {
     "isValid": false,
-    "value": "kebab-case",
-  },
-  {
-    "isValid": false,
-    "value": "PascalCase",
-  },
-  {
-    "isValid": false,
-    "value": "snake_case",
-  },
-  {
-    "isValid": false,
-    "value": "Train-Case",
+    "value": "Capital Case",
   },
   {
     "isValid": false,
     "value": "Capital Case",
+  },
+  {
+    "isValid": true,
+    "value": "CONSTANT_CASE",
   },
   {
     "isValid": true,
@@ -150,7 +230,35 @@ exports[`isConstantCase 1`] = `
   },
   {
     "isValid": false,
+    "value": "dot.case",
+  },
+  {
+    "isValid": false,
+    "value": "kebab-case",
+  },
+  {
+    "isValid": false,
+    "value": "kebab-case",
+  },
+  {
+    "isValid": false,
     "value": "no case",
+  },
+  {
+    "isValid": false,
+    "value": "no case",
+  },
+  {
+    "isValid": false,
+    "value": "Pascal_Snake_Case",
+  },
+  {
+    "isValid": false,
+    "value": "PascalCase",
+  },
+  {
+    "isValid": false,
+    "value": "PascalCase",
   },
   {
     "isValid": false,
@@ -162,7 +270,31 @@ exports[`isConstantCase 1`] = `
   },
   {
     "isValid": false,
+    "value": "path/case",
+  },
+  {
+    "isValid": false,
     "value": "Sentence case",
+  },
+  {
+    "isValid": false,
+    "value": "Sentence case",
+  },
+  {
+    "isValid": false,
+    "value": "snake_case",
+  },
+  {
+    "isValid": false,
+    "value": "snake_case",
+  },
+  {
+    "isValid": false,
+    "value": "Train-Case",
+  },
+  {
+    "isValid": false,
+    "value": "Train-Case",
   },
   {
     "isValid": false,
@@ -179,19 +311,7 @@ exports[`isDotCase 1`] = `
   },
   {
     "isValid": false,
-    "value": "kebab-case",
-  },
-  {
-    "isValid": false,
-    "value": "PascalCase",
-  },
-  {
-    "isValid": false,
-    "value": "snake_case",
-  },
-  {
-    "isValid": false,
-    "value": "Train-Case",
+    "value": "Capital Case",
   },
   {
     "isValid": false,
@@ -202,8 +322,28 @@ exports[`isDotCase 1`] = `
     "value": "CONSTANT_CASE",
   },
   {
+    "isValid": false,
+    "value": "CONSTANT_CASE",
+  },
+  {
     "isValid": true,
     "value": "dot.case",
+  },
+  {
+    "isValid": true,
+    "value": "dot.case",
+  },
+  {
+    "isValid": false,
+    "value": "kebab-case",
+  },
+  {
+    "isValid": false,
+    "value": "kebab-case",
+  },
+  {
+    "isValid": false,
+    "value": "no case",
   },
   {
     "isValid": false,
@@ -215,11 +355,47 @@ exports[`isDotCase 1`] = `
   },
   {
     "isValid": false,
+    "value": "PascalCase",
+  },
+  {
+    "isValid": false,
+    "value": "PascalCase",
+  },
+  {
+    "isValid": false,
+    "value": "Pascal_Snake_Case",
+  },
+  {
+    "isValid": false,
+    "value": "path/case",
+  },
+  {
+    "isValid": false,
     "value": "path/case",
   },
   {
     "isValid": false,
     "value": "Sentence case",
+  },
+  {
+    "isValid": false,
+    "value": "Sentence case",
+  },
+  {
+    "isValid": false,
+    "value": "snake_case",
+  },
+  {
+    "isValid": false,
+    "value": "snake_case",
+  },
+  {
+    "isValid": false,
+    "value": "Train-Case",
+  },
+  {
+    "isValid": false,
+    "value": "Train-Case",
   },
   {
     "isValid": false,
@@ -235,20 +411,8 @@ exports[`isKebabCase 1`] = `
     "value": "camelCase",
   },
   {
-    "isValid": true,
-    "value": "kebab-case",
-  },
-  {
     "isValid": false,
-    "value": "PascalCase",
-  },
-  {
-    "isValid": false,
-    "value": "snake_case",
-  },
-  {
-    "isValid": false,
-    "value": "Train-Case",
+    "value": "Capital Case",
   },
   {
     "isValid": false,
@@ -260,7 +424,27 @@ exports[`isKebabCase 1`] = `
   },
   {
     "isValid": false,
+    "value": "CONSTANT_CASE",
+  },
+  {
+    "isValid": false,
     "value": "dot.case",
+  },
+  {
+    "isValid": false,
+    "value": "dot.case",
+  },
+  {
+    "isValid": true,
+    "value": "kebab-case",
+  },
+  {
+    "isValid": true,
+    "value": "kebab-case",
+  },
+  {
+    "isValid": false,
+    "value": "no case",
   },
   {
     "isValid": false,
@@ -272,11 +456,47 @@ exports[`isKebabCase 1`] = `
   },
   {
     "isValid": false,
+    "value": "PascalCase",
+  },
+  {
+    "isValid": false,
+    "value": "PascalCase",
+  },
+  {
+    "isValid": false,
+    "value": "Pascal_Snake_Case",
+  },
+  {
+    "isValid": false,
+    "value": "path/case",
+  },
+  {
+    "isValid": false,
     "value": "path/case",
   },
   {
     "isValid": false,
     "value": "Sentence case",
+  },
+  {
+    "isValid": false,
+    "value": "Sentence case",
+  },
+  {
+    "isValid": false,
+    "value": "snake_case",
+  },
+  {
+    "isValid": false,
+    "value": "snake_case",
+  },
+  {
+    "isValid": false,
+    "value": "Train-Case",
+  },
+  {
+    "isValid": false,
+    "value": "Train-Case",
   },
   {
     "isValid": false,
@@ -293,19 +513,7 @@ exports[`isNoCase 1`] = `
   },
   {
     "isValid": false,
-    "value": "kebab-case",
-  },
-  {
-    "isValid": false,
-    "value": "PascalCase",
-  },
-  {
-    "isValid": false,
-    "value": "snake_case",
-  },
-  {
-    "isValid": false,
-    "value": "Train-Case",
+    "value": "Capital Case",
   },
   {
     "isValid": false,
@@ -317,7 +525,27 @@ exports[`isNoCase 1`] = `
   },
   {
     "isValid": false,
+    "value": "CONSTANT_CASE",
+  },
+  {
+    "isValid": false,
     "value": "dot.case",
+  },
+  {
+    "isValid": false,
+    "value": "dot.case",
+  },
+  {
+    "isValid": false,
+    "value": "kebab-case",
+  },
+  {
+    "isValid": false,
+    "value": "kebab-case",
+  },
+  {
+    "isValid": true,
+    "value": "no case",
   },
   {
     "isValid": true,
@@ -329,11 +557,47 @@ exports[`isNoCase 1`] = `
   },
   {
     "isValid": false,
+    "value": "PascalCase",
+  },
+  {
+    "isValid": false,
+    "value": "PascalCase",
+  },
+  {
+    "isValid": false,
+    "value": "Pascal_Snake_Case",
+  },
+  {
+    "isValid": false,
+    "value": "path/case",
+  },
+  {
+    "isValid": false,
     "value": "path/case",
   },
   {
     "isValid": false,
     "value": "Sentence case",
+  },
+  {
+    "isValid": false,
+    "value": "Sentence case",
+  },
+  {
+    "isValid": false,
+    "value": "snake_case",
+  },
+  {
+    "isValid": false,
+    "value": "snake_case",
+  },
+  {
+    "isValid": false,
+    "value": "Train-Case",
+  },
+  {
+    "isValid": false,
+    "value": "Train-Case",
   },
   {
     "isValid": false,
@@ -350,19 +614,7 @@ exports[`isPascalCase 1`] = `
   },
   {
     "isValid": false,
-    "value": "kebab-case",
-  },
-  {
-    "isValid": true,
-    "value": "PascalCase",
-  },
-  {
-    "isValid": false,
-    "value": "snake_case",
-  },
-  {
-    "isValid": false,
-    "value": "Train-Case",
+    "value": "Capital Case",
   },
   {
     "isValid": false,
@@ -374,11 +626,43 @@ exports[`isPascalCase 1`] = `
   },
   {
     "isValid": false,
+    "value": "CONSTANT_CASE",
+  },
+  {
+    "isValid": false,
     "value": "dot.case",
   },
   {
     "isValid": false,
+    "value": "dot.case",
+  },
+  {
+    "isValid": false,
+    "value": "kebab-case",
+  },
+  {
+    "isValid": false,
+    "value": "kebab-case",
+  },
+  {
+    "isValid": false,
     "value": "no case",
+  },
+  {
+    "isValid": false,
+    "value": "no case",
+  },
+  {
+    "isValid": false,
+    "value": "Pascal_Snake_Case",
+  },
+  {
+    "isValid": true,
+    "value": "PascalCase",
+  },
+  {
+    "isValid": true,
+    "value": "PascalCase",
   },
   {
     "isValid": false,
@@ -390,7 +674,31 @@ exports[`isPascalCase 1`] = `
   },
   {
     "isValid": false,
+    "value": "path/case",
+  },
+  {
+    "isValid": false,
     "value": "Sentence case",
+  },
+  {
+    "isValid": false,
+    "value": "Sentence case",
+  },
+  {
+    "isValid": false,
+    "value": "snake_case",
+  },
+  {
+    "isValid": false,
+    "value": "snake_case",
+  },
+  {
+    "isValid": false,
+    "value": "Train-Case",
+  },
+  {
+    "isValid": false,
+    "value": "Train-Case",
   },
   {
     "isValid": false,
@@ -407,19 +715,7 @@ exports[`isPascalSnakeCase 1`] = `
   },
   {
     "isValid": false,
-    "value": "kebab-case",
-  },
-  {
-    "isValid": false,
-    "value": "PascalCase",
-  },
-  {
-    "isValid": false,
-    "value": "snake_case",
-  },
-  {
-    "isValid": false,
-    "value": "Train-Case",
+    "value": "Capital Case",
   },
   {
     "isValid": false,
@@ -431,7 +727,27 @@ exports[`isPascalSnakeCase 1`] = `
   },
   {
     "isValid": false,
+    "value": "CONSTANT_CASE",
+  },
+  {
+    "isValid": false,
     "value": "dot.case",
+  },
+  {
+    "isValid": false,
+    "value": "dot.case",
+  },
+  {
+    "isValid": false,
+    "value": "kebab-case",
+  },
+  {
+    "isValid": false,
+    "value": "kebab-case",
+  },
+  {
+    "isValid": false,
+    "value": "no case",
   },
   {
     "isValid": false,
@@ -443,11 +759,47 @@ exports[`isPascalSnakeCase 1`] = `
   },
   {
     "isValid": false,
+    "value": "PascalCase",
+  },
+  {
+    "isValid": false,
+    "value": "PascalCase",
+  },
+  {
+    "isValid": true,
+    "value": "Pascal_Snake_Case",
+  },
+  {
+    "isValid": false,
+    "value": "path/case",
+  },
+  {
+    "isValid": false,
     "value": "path/case",
   },
   {
     "isValid": false,
     "value": "Sentence case",
+  },
+  {
+    "isValid": false,
+    "value": "Sentence case",
+  },
+  {
+    "isValid": false,
+    "value": "snake_case",
+  },
+  {
+    "isValid": false,
+    "value": "snake_case",
+  },
+  {
+    "isValid": false,
+    "value": "Train-Case",
+  },
+  {
+    "isValid": false,
+    "value": "Train-Case",
   },
   {
     "isValid": false,
@@ -464,19 +816,7 @@ exports[`isPathCase 1`] = `
   },
   {
     "isValid": false,
-    "value": "kebab-case",
-  },
-  {
-    "isValid": false,
-    "value": "PascalCase",
-  },
-  {
-    "isValid": false,
-    "value": "snake_case",
-  },
-  {
-    "isValid": false,
-    "value": "Train-Case",
+    "value": "Capital Case",
   },
   {
     "isValid": false,
@@ -488,7 +828,27 @@ exports[`isPathCase 1`] = `
   },
   {
     "isValid": false,
+    "value": "CONSTANT_CASE",
+  },
+  {
+    "isValid": false,
     "value": "dot.case",
+  },
+  {
+    "isValid": false,
+    "value": "dot.case",
+  },
+  {
+    "isValid": false,
+    "value": "kebab-case",
+  },
+  {
+    "isValid": false,
+    "value": "kebab-case",
+  },
+  {
+    "isValid": false,
+    "value": "no case",
   },
   {
     "isValid": false,
@@ -499,12 +859,48 @@ exports[`isPathCase 1`] = `
     "value": "Pascal_Snake_Case",
   },
   {
+    "isValid": false,
+    "value": "PascalCase",
+  },
+  {
+    "isValid": false,
+    "value": "PascalCase",
+  },
+  {
+    "isValid": false,
+    "value": "Pascal_Snake_Case",
+  },
+  {
+    "isValid": true,
+    "value": "path/case",
+  },
+  {
     "isValid": true,
     "value": "path/case",
   },
   {
     "isValid": false,
     "value": "Sentence case",
+  },
+  {
+    "isValid": false,
+    "value": "Sentence case",
+  },
+  {
+    "isValid": false,
+    "value": "snake_case",
+  },
+  {
+    "isValid": false,
+    "value": "snake_case",
+  },
+  {
+    "isValid": false,
+    "value": "Train-Case",
+  },
+  {
+    "isValid": false,
+    "value": "Train-Case",
   },
   {
     "isValid": false,
@@ -521,19 +917,7 @@ exports[`isSentenceCase 1`] = `
   },
   {
     "isValid": false,
-    "value": "kebab-case",
-  },
-  {
-    "isValid": false,
-    "value": "PascalCase",
-  },
-  {
-    "isValid": false,
-    "value": "snake_case",
-  },
-  {
-    "isValid": false,
-    "value": "Train-Case",
+    "value": "Capital Case",
   },
   {
     "isValid": false,
@@ -545,7 +929,27 @@ exports[`isSentenceCase 1`] = `
   },
   {
     "isValid": false,
+    "value": "CONSTANT_CASE",
+  },
+  {
+    "isValid": false,
     "value": "dot.case",
+  },
+  {
+    "isValid": false,
+    "value": "dot.case",
+  },
+  {
+    "isValid": false,
+    "value": "kebab-case",
+  },
+  {
+    "isValid": false,
+    "value": "kebab-case",
+  },
+  {
+    "isValid": false,
+    "value": "no case",
   },
   {
     "isValid": false,
@@ -557,11 +961,47 @@ exports[`isSentenceCase 1`] = `
   },
   {
     "isValid": false,
+    "value": "PascalCase",
+  },
+  {
+    "isValid": false,
+    "value": "PascalCase",
+  },
+  {
+    "isValid": false,
+    "value": "Pascal_Snake_Case",
+  },
+  {
+    "isValid": false,
+    "value": "path/case",
+  },
+  {
+    "isValid": false,
     "value": "path/case",
   },
   {
     "isValid": true,
     "value": "Sentence case",
+  },
+  {
+    "isValid": true,
+    "value": "Sentence case",
+  },
+  {
+    "isValid": false,
+    "value": "snake_case",
+  },
+  {
+    "isValid": false,
+    "value": "snake_case",
+  },
+  {
+    "isValid": false,
+    "value": "Train-Case",
+  },
+  {
+    "isValid": false,
+    "value": "Train-Case",
   },
   {
     "isValid": false,
@@ -578,19 +1018,7 @@ exports[`isSnakeCase 1`] = `
   },
   {
     "isValid": false,
-    "value": "kebab-case",
-  },
-  {
-    "isValid": false,
-    "value": "PascalCase",
-  },
-  {
-    "isValid": true,
-    "value": "snake_case",
-  },
-  {
-    "isValid": false,
-    "value": "Train-Case",
+    "value": "Capital Case",
   },
   {
     "isValid": false,
@@ -602,7 +1030,27 @@ exports[`isSnakeCase 1`] = `
   },
   {
     "isValid": false,
+    "value": "CONSTANT_CASE",
+  },
+  {
+    "isValid": false,
     "value": "dot.case",
+  },
+  {
+    "isValid": false,
+    "value": "dot.case",
+  },
+  {
+    "isValid": false,
+    "value": "kebab-case",
+  },
+  {
+    "isValid": false,
+    "value": "kebab-case",
+  },
+  {
+    "isValid": false,
+    "value": "no case",
   },
   {
     "isValid": false,
@@ -614,11 +1062,47 @@ exports[`isSnakeCase 1`] = `
   },
   {
     "isValid": false,
+    "value": "PascalCase",
+  },
+  {
+    "isValid": false,
+    "value": "PascalCase",
+  },
+  {
+    "isValid": false,
+    "value": "Pascal_Snake_Case",
+  },
+  {
+    "isValid": false,
+    "value": "path/case",
+  },
+  {
+    "isValid": false,
     "value": "path/case",
   },
   {
     "isValid": false,
     "value": "Sentence case",
+  },
+  {
+    "isValid": false,
+    "value": "Sentence case",
+  },
+  {
+    "isValid": true,
+    "value": "snake_case",
+  },
+  {
+    "isValid": true,
+    "value": "snake_case",
+  },
+  {
+    "isValid": false,
+    "value": "Train-Case",
+  },
+  {
+    "isValid": false,
+    "value": "Train-Case",
   },
   {
     "isValid": false,
@@ -635,19 +1119,7 @@ exports[`isTrainCase 1`] = `
   },
   {
     "isValid": false,
-    "value": "kebab-case",
-  },
-  {
-    "isValid": false,
-    "value": "PascalCase",
-  },
-  {
-    "isValid": false,
-    "value": "snake_case",
-  },
-  {
-    "isValid": true,
-    "value": "Train-Case",
+    "value": "Capital Case",
   },
   {
     "isValid": false,
@@ -659,7 +1131,27 @@ exports[`isTrainCase 1`] = `
   },
   {
     "isValid": false,
+    "value": "CONSTANT_CASE",
+  },
+  {
+    "isValid": false,
     "value": "dot.case",
+  },
+  {
+    "isValid": false,
+    "value": "dot.case",
+  },
+  {
+    "isValid": false,
+    "value": "kebab-case",
+  },
+  {
+    "isValid": false,
+    "value": "kebab-case",
+  },
+  {
+    "isValid": false,
+    "value": "no case",
   },
   {
     "isValid": false,
@@ -671,11 +1163,47 @@ exports[`isTrainCase 1`] = `
   },
   {
     "isValid": false,
+    "value": "PascalCase",
+  },
+  {
+    "isValid": false,
+    "value": "PascalCase",
+  },
+  {
+    "isValid": false,
+    "value": "Pascal_Snake_Case",
+  },
+  {
+    "isValid": false,
+    "value": "path/case",
+  },
+  {
+    "isValid": false,
     "value": "path/case",
   },
   {
     "isValid": false,
     "value": "Sentence case",
+  },
+  {
+    "isValid": false,
+    "value": "Sentence case",
+  },
+  {
+    "isValid": false,
+    "value": "snake_case",
+  },
+  {
+    "isValid": false,
+    "value": "snake_case",
+  },
+  {
+    "isValid": true,
+    "value": "Train-Case",
+  },
+  {
+    "isValid": true,
+    "value": "Train-Case",
   },
   {
     "isValid": false,

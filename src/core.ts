@@ -15,35 +15,23 @@ import {
 import type { Options } from 'change-case'
 
 /**
- * Type for all availabel [change-case](https://github.com/blakeembrey/change-case) method in `camelCase`
+ * Case converter
  */
-export type CaseType =
-  | 'camelCase'
-  | 'capitalCase'
-  | 'constantCase'
-  | 'dotCase'
-  | 'kebabCase'
-  | 'noCase'
-  | 'pascalCase'
-  | 'pascalSnakeCase'
-  | 'pathCase'
-  | 'sentenceCase'
-  | 'snakeCase'
-  | 'trainCase'
+export type CaseConverter = (input: string) => CaseConvertResult
 
 /**
  * Case convert result
  */
 export type CaseConvertResult = {
   /**
-   * input value
-   */
-  input: string
-
-  /**
    * whether output has changed from input
    */
   changed: boolean
+
+  /**
+   * input value
+   */
+  input: string
 
   /**
    * converted value
@@ -52,9 +40,32 @@ export type CaseConvertResult = {
 }
 
 /**
- * Case converter
+ * Type for all availabel [change-case](https://github.com/blakeembrey/change-case) method in `camelCase`
  */
-export type CaseConverter = (input: string) => CaseConvertResult
+export type CaseType =
+  | 'camelCase'
+  | 'capitalCase'
+  | 'Capital Case'
+  | 'CONSTANT_CASE'
+  | 'constantCase'
+  | 'dot.case'
+  | 'dotCase'
+  | 'kebab-case'
+  | 'kebabCase'
+  | 'noCase'
+  | 'no case'
+  | 'Pascal_Snake_Case'
+  | 'pascalCase'
+  | 'PascalCase'
+  | 'pascalSnakeCase'
+  | 'path/case'
+  | 'pathCase'
+  | 'sentenceCase'
+  | 'Sentence case'
+  | 'snake_case'
+  | 'snakeCase'
+  | 'Train-Case'
+  | 'trainCase'
 
 /**
  * CaseType to case convert method map
@@ -65,15 +76,26 @@ export const convertersMap: Record<
 > = {
   camelCase,
   capitalCase,
+  'Capital Case': capitalCase,
+  CONSTANT_CASE: constantCase,
   constantCase,
+  'dot.case': dotCase,
   dotCase,
+  'kebab-case': kebabCase,
   kebabCase,
   noCase,
+  'no case': noCase,
+  Pascal_Snake_Case: pascalSnakeCase,
   pascalCase,
+  PascalCase: pascalCase,
   pascalSnakeCase,
+  'path/case': pathCase,
   pathCase,
   sentenceCase,
+  'Sentence case': sentenceCase,
+  snake_case: snakeCase,
   snakeCase,
+  'Train-Case': trainCase,
   trainCase,
 }
 
@@ -107,8 +129,8 @@ export function getCaseConverter(
     const output = convert(input, options)
     const changed = output !== input
     return {
-      input,
       changed,
+      input,
       output,
     }
   }

@@ -2,34 +2,14 @@ import { getCaseConverter } from './core'
 import type { CaseType } from './core'
 
 /**
+ * Case validator
+ */
+export type CaseValidator = (input: string) => boolean
+
+/**
  * Non-empty string
  */
 type NonEmptyString = string & { 0: '' }
-
-/**
- * Case validator
- */
-type CaseValidator = (input: string) => boolean
-
-/**
- * Check if given value is a string
- *
- * @param value - given value
- * @returns true if it is a string, false otherwise
- */
-function isString(value: unknown): value is string {
-  return typeof value === 'string'
-}
-
-/**
- * Check if given value is a non-empty string
- *
- * @param value - given value
- * @returns true if it is a non-empty string, false otherwise
- */
-function isNonEmptyString(value: unknown): value is NonEmptyString {
-  return isString(value) && value.length > 0
-}
 
 /**
  * Create a case validator by caseType
@@ -43,6 +23,26 @@ function createCaseValidator(caseType: CaseType): CaseValidator {
     if (!isNonEmptyString(input)) return false
     return !convert(input).changed
   }
+}
+
+/**
+ * Check if given value is a non-empty string
+ *
+ * @param value - given value
+ * @returns true if it is a non-empty string, false otherwise
+ */
+function isNonEmptyString(value: unknown): value is NonEmptyString {
+  return isString(value) && value.length > 0
+}
+
+/**
+ * Check if given value is a string
+ *
+ * @param value - given value
+ * @returns true if it is a string, false otherwise
+ */
+function isString(value: unknown): value is string {
+  return typeof value === 'string'
 }
 
 /**
