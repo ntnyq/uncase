@@ -40,7 +40,7 @@ export type CaseConvertResult = {
 }
 
 /**
- * Type for all availabel [change-case](https://github.com/blakeembrey/change-case) method in `camelCase`
+ * All case converter names in raw and `camelCase`
  */
 export type CaseType =
   | 'camelCase'
@@ -68,7 +68,7 @@ export type CaseType =
   | 'trainCase'
 
 /**
- * CaseType to case convert method map
+ * CaseType to case converter map
  */
 export const convertersMap: Record<
   CaseType,

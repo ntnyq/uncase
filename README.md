@@ -47,6 +47,98 @@ console.log(isPascalCase('HelloWorld'))
 // => true
 ```
 
+## API
+
+### Case converter
+
+#### `getCaseConverter`
+
+- **Type**: `(caseType: CaseType, options: Options = {}) => CaseConverter`
+
+Get a converter by caseType and convert the given input.
+
+#### Interface
+
+```ts
+/**
+ * Case converter
+ */
+export type CaseConverter = (input: string) => CaseConvertResult
+
+/**
+ * Case convert result
+ */
+export type CaseConvertResult = {
+  /**
+   * whether output has changed from input
+   */
+  changed: boolean
+
+  /**
+   * input value
+   */
+  input: string
+
+  /**
+   * converted value
+   */
+  output: string
+}
+
+/**
+ * All case converter names in raw and `camelCase`
+ */
+export type CaseType =
+  | 'camelCase'
+  | 'capitalCase'
+  | 'Capital Case'
+  | 'CONSTANT_CASE'
+  | 'constantCase'
+  | 'dot.case'
+  | 'dotCase'
+  | 'kebab-case'
+  | 'kebabCase'
+  | 'noCase'
+  | 'no case'
+  | 'Pascal_Snake_Case'
+  | 'pascalCase'
+  | 'PascalCase'
+  | 'pascalSnakeCase'
+  | 'path/case'
+  | 'pathCase'
+  | 'sentenceCase'
+  | 'Sentence case'
+  | 'snake_case'
+  | 'snakeCase'
+  | 'Train-Case'
+  | 'trainCase'
+```
+
+### Case validator
+
+- `isCamelCase`
+- `isCapitalCase`
+- `isConstantCase`
+- `isDotCase`
+- `isKebabCase`
+- `isNoCase`
+- `isPascalCase`
+- `isPascalSnakeCase`
+- `isPathCase`
+- `isSentenceCase`
+- `isSnakeCase`
+- `isTrainCase`
+
+#### Type
+
+```ts
+export type CaseValidator = (input: string) => boolean
+```
+
+## Why this?
+
+Dynamic case convert. Useful to create ESLint case convention rules.
+
 ## Credits
 
 - [change-case](https://github.com/blakeembrey/change-case)
