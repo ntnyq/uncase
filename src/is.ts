@@ -20,7 +20,9 @@ type NonEmptyString = string & { 0: '' }
 function createCaseValidator(caseType: CaseType): CaseValidator {
   const convert = getCaseConverter(caseType)
   return (input: string) => {
-    if (!isNonEmptyString(input)) return false
+    if (!isNonEmptyString(input)) {
+      return false
+    }
     return !convert(input).changed
   }
 }
