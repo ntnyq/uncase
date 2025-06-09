@@ -2,7 +2,7 @@
   "name": "uncase",
   "type": "module",
   "version": "0.1.0",
-  "packageManager": "pnpm@10.11.1",
+  "packageManager": "pnpm@10.12.1",
   "description": "Wrapper of change-case to create case converter, validator and etc.",
   "keywords": [
     "camelCase",
