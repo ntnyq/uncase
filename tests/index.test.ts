@@ -18,3 +18,10 @@ it.each(allCaseTypes)(`to %s`, caseType => {
 
   expect(results).toMatchSnapshot()
 })
+
+it('should throw error for unknown caseType', () => {
+  // @ts-expect-error intentionally wrong type
+  expect(() => getCaseConverter('unknownCase')).toThrow(
+    'Unknown caseType: unknownCase',
+  )
+})

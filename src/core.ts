@@ -125,11 +125,14 @@ export function getCaseConverter(
 ): CaseConverter {
   const convert = convertersMap[caseType]
 
+  if (!convert) {
+    throw new Error(`Unknown caseType: ${caseType}`)
+  }
+
   return (input: string) => {
     const output = convert(input, options)
-    const changed = output !== input
     return {
-      changed,
+      changed: output !== input,
       input,
       output,
     }
