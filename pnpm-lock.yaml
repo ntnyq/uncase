@@ -22,7 +22,7 @@ importers:
         specifier: ^3.0.1
         version: 3.0.1
       '@types/node':
-        specifier: ^24.3.1
+        specifier: ^24.4.0
         version: 24.5.0
       '@vitest/coverage-v8':
         specifier: ^3.2.4
@@ -46,7 +46,7 @@ importers:
         specifier: ^3.6.2
         version: 3.6.2
       tsdown:
-        specifier: ^0.15.0
+        specifier: ^0.15.1
         version: 0.15.1(typescript@5.9.2)
       typescript:
         specifier: ^5.9.2
@@ -3223,7 +3223,7 @@ snapshots:
   '@unocss/rule-utils@66.5.1':
     dependencies:
       '@unocss/core': 66.5.1
-      magic-string: 0.30.18
+      magic-string: 0.30.19
 
   '@unrs/resolver-binding-android-arm-eabi@1.11.1':
     optional: true
@@ -3358,7 +3358,7 @@ snapshots:
 
   '@vue/compiler-core@3.5.18':
     dependencies:
-      '@babel/parser': 7.28.3
+      '@babel/parser': 7.28.4
       '@vue/shared': 3.5.18
       entities: 4.5.0
       estree-walker: 2.0.2
@@ -3371,13 +3371,13 @@ snapshots:
 
   '@vue/compiler-sfc@3.5.18':
     dependencies:
-      '@babel/parser': 7.28.3
+      '@babel/parser': 7.28.4
       '@vue/compiler-core': 3.5.18
       '@vue/compiler-dom': 3.5.18
       '@vue/compiler-ssr': 3.5.18
       '@vue/shared': 3.5.18
       estree-walker: 2.0.2
-      magic-string: 0.30.18
+      magic-string: 0.30.19
       postcss: 8.5.6
       source-map-js: 1.2.1
 
@@ -5182,7 +5182,7 @@ snapshots:
       picomatch: 4.0.3
       postcss: 8.5.6
       rollup: 4.46.3
-      tinyglobby: 0.2.14
+      tinyglobby: 0.2.15
     optionalDependencies:
       '@types/node': 24.5.0
       fsevents: 2.3.3
