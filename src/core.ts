@@ -97,7 +97,7 @@ export const convertersMap: Record<
   snakeCase,
   'Train-Case': trainCase,
   trainCase,
-}
+} as const
 
 /**
  * Get a converter by caseType and convert the given input

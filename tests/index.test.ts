@@ -3,7 +3,7 @@ import { getCaseConverter } from '../src'
 import { allCaseTypes, allCaseValues } from './fixtures'
 import type { CaseType } from '../src'
 
-it.each(allCaseTypes)(`to %s`, caseType => {
+it.each(allCaseTypes)('to %s', caseType => {
   const convert = getCaseConverter(caseType as CaseType)
   const results = allCaseValues.map(v => ({
     ...convert(v),
@@ -11,8 +11,10 @@ it.each(allCaseTypes)(`to %s`, caseType => {
   }))
 
   if (caseType === 'camelCase') {
+    // eslint-disable-next-line vitest/no-conditional-expect
     expect(results.filter(v => !v.changed)).toHaveLength(1)
   } else {
+    // eslint-disable-next-line vitest/no-conditional-expect
     expect(results.filter(v => !v.changed)).toHaveLength(2)
   }
 
