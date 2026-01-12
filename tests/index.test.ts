@@ -1,20 +1,19 @@
 import { expect, it } from 'vitest'
 import { getCaseConverter } from '../src'
-import { allCaseTypes, allCaseValues } from './fixtures'
 import type { CaseType } from '../src'
+import { CASE_FIXTURES } from './fixtures'
 
-it.each(allCaseTypes)('to %s', caseType => {
+it.each(Object.keys(CASE_FIXTURES))('to %s', caseType => {
   const convert = getCaseConverter(caseType as CaseType)
-  const results = allCaseValues.map(v => ({
+  const results = Object.values(CASE_FIXTURES).map(v => ({
     ...convert(v),
     caseType,
+    description: `to: ${caseType}`,
   }))
 
   if (caseType === 'camelCase') {
-    // eslint-disable-next-line vitest/no-conditional-expect
     expect(results.filter(v => !v.changed)).toHaveLength(1)
   } else {
-    // eslint-disable-next-line vitest/no-conditional-expect
     expect(results.filter(v => !v.changed)).toHaveLength(2)
   }
 

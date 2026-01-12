@@ -13,16 +13,17 @@ import {
   isSnakeCase,
   isTrainCase,
 } from '../src/is'
-import { allCaseValues } from './fixtures'
+import { CASE_FIXTURES } from './fixtures'
 
 const CASE_VALUES_FIXTURES = [
-  ...allCaseValues,
+  ...Object.values(CASE_FIXTURES),
   // empty string is treated as false
   '',
 ]
 
 it('isCamelCase', () => {
   const results = CASE_VALUES_FIXTURES.map(value => ({
+    description: 'isCamelCase',
     isValid: isCamelCase(value),
     value,
   }))
@@ -33,6 +34,7 @@ it('isCamelCase', () => {
 
 it('isCapitalCase', () => {
   const results = CASE_VALUES_FIXTURES.map(value => ({
+    description: 'isCapitalCase',
     isValid: isCapitalCase(value),
     value,
   }))
@@ -43,6 +45,7 @@ it('isCapitalCase', () => {
 
 it('isConstantCase', () => {
   const results = CASE_VALUES_FIXTURES.map(value => ({
+    description: 'isConstantCase',
     isValid: isConstantCase(value),
     value,
   }))
@@ -53,6 +56,7 @@ it('isConstantCase', () => {
 
 it('isDotCase', () => {
   const results = CASE_VALUES_FIXTURES.map(value => ({
+    description: 'isDotCase',
     isValid: isDotCase(value),
     value,
   }))
@@ -63,6 +67,7 @@ it('isDotCase', () => {
 
 it('isKebabCase', () => {
   const results = CASE_VALUES_FIXTURES.map(value => ({
+    description: 'isKebabCase',
     isValid: isKebabCase(value),
     value,
   }))
@@ -73,6 +78,7 @@ it('isKebabCase', () => {
 
 it('isNoCase', () => {
   const results = CASE_VALUES_FIXTURES.map(value => ({
+    description: 'isNoCase',
     isValid: isNoCase(value),
     value,
   }))
@@ -83,6 +89,7 @@ it('isNoCase', () => {
 
 it('isPascalCase', () => {
   const results = CASE_VALUES_FIXTURES.map(value => ({
+    description: 'isPascalCase',
     isValid: isPascalCase(value),
     value,
   }))
@@ -93,6 +100,7 @@ it('isPascalCase', () => {
 
 it('isPascalSnakeCase', () => {
   const results = CASE_VALUES_FIXTURES.map(value => ({
+    description: 'isPascalSnakeCase',
     isValid: isPascalSnakeCase(value),
     value,
   }))
@@ -103,6 +111,7 @@ it('isPascalSnakeCase', () => {
 
 it('isPathCase', () => {
   const results = CASE_VALUES_FIXTURES.map(value => ({
+    description: 'isPathCase',
     isValid: isPathCase(value),
     value,
   }))
@@ -113,6 +122,7 @@ it('isPathCase', () => {
 
 it('isSentenceCase', () => {
   const results = CASE_VALUES_FIXTURES.map(value => ({
+    description: 'isSentenceCase',
     isValid: isSentenceCase(value),
     value,
   }))
@@ -123,6 +133,7 @@ it('isSentenceCase', () => {
 
 it('isSnakeCase', () => {
   const results = CASE_VALUES_FIXTURES.map(value => ({
+    description: 'isSnakeCase',
     isValid: isSnakeCase(value),
     value,
   }))
@@ -133,6 +144,7 @@ it('isSnakeCase', () => {
 
 it('isTrainCase', () => {
   const results = CASE_VALUES_FIXTURES.map(value => ({
+    description: 'isTrainCase',
     isValid: isTrainCase(value),
     value,
   }))
