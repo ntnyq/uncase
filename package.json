@@ -2,7 +2,7 @@
   "name": "uncase",
   "type": "module",
   "version": "0.2.0",
-  "packageManager": "pnpm@10.27.0",
+  "packageManager": "pnpm@10.28.1",
   "description": "Wrapper of change-case to create case converter, validator and etc.",
   "keywords": [
     "camelCase",
@@ -68,19 +68,19 @@
     "change-case": "^5.4.4"
   },
   "devDependencies": {
-    "@ntnyq/eslint-config": "^5.9.0",
+    "@ntnyq/eslint-config": "^6.0.0-beta.4",
     "@ntnyq/prettier-config": "^3.0.1",
-    "@types/node": "^25.0.3",
-    "@vitest/coverage-v8": "^4.0.16",
-    "bumpp": "^10.3.2",
+    "@types/node": "^25.0.10",
+    "@vitest/coverage-v8": "^4.0.18",
+    "bumpp": "^10.4.0",
     "eslint": "^9.39.2",
     "husky": "^9.1.7",
     "nano-staged": "^0.9.0",
     "npm-run-all2": "^8.0.4",
-    "prettier": "^3.7.4",
-    "tsdown": "^0.18.4",
+    "prettier": "^3.8.1",
+    "tsdown": "^0.20.1",
     "typescript": "^5.9.3",
-    "vitest": "^4.0.16"
+    "vitest": "^4.0.18"
   },
   "nano-staged": {
     "*.{js,ts,mjs,cjs,md,yml,yaml,json}": "eslint --fix"
