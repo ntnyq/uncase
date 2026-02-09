@@ -2,7 +2,7 @@
   "name": "uncase",
   "type": "module",
   "version": "0.2.0",
-  "packageManager": "pnpm@10.28.1",
+  "packageManager": "pnpm@10.28.2",
   "description": "Wrapper of change-case to create case converter, validator and etc.",
   "keywords": [
     "camelCase",
@@ -68,9 +68,9 @@
     "change-case": "^5.4.4"
   },
   "devDependencies": {
-    "@ntnyq/eslint-config": "^6.0.0-beta.4",
+    "@ntnyq/eslint-config": "^6.0.0-beta.6",
     "@ntnyq/prettier-config": "^3.0.1",
-    "@types/node": "^25.0.10",
+    "@types/node": "^25.2.0",
     "@vitest/coverage-v8": "^4.0.18",
     "bumpp": "^10.4.0",
     "eslint": "^9.39.2",
