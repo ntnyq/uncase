@@ -2,7 +2,6 @@ import { defineConfig } from 'vitest/config'
 
 export default defineConfig({
   test: {
-    watch: false,
     coverage: {
       include: ['src/**/*.ts'],
       reporter: ['lcov', 'text'],
@@ -10,5 +9,6 @@ export default defineConfig({
         100: true,
       },
     },
+    watch: false,
   },
 })

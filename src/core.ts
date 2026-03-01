@@ -22,17 +22,15 @@ export type CaseConverter = (input: string) => CaseConvertResult
 /**
  * Case convert result
  */
-export type CaseConvertResult = {
+export interface CaseConvertResult {
   /**
    * whether output has changed from input
    */
   changed: boolean
-
   /**
    * input value
    */
   input: string
-
   /**
    * converted value
    */
@@ -74,28 +72,28 @@ export const convertersMap: Record<
   CaseType,
   (value: string, options?: Options) => string
 > = {
+  CONSTANT_CASE: constantCase,
+  'Capital Case': capitalCase,
+  PascalCase: pascalCase,
+  Pascal_Snake_Case: pascalSnakeCase,
+  'Sentence case': sentenceCase,
+  'Train-Case': trainCase,
   camelCase,
   capitalCase,
-  'Capital Case': capitalCase,
-  CONSTANT_CASE: constantCase,
   constantCase,
   'dot.case': dotCase,
   dotCase,
   'kebab-case': kebabCase,
   kebabCase,
-  noCase,
   'no case': noCase,
-  Pascal_Snake_Case: pascalSnakeCase,
+  noCase,
   pascalCase,
-  PascalCase: pascalCase,
   pascalSnakeCase,
   'path/case': pathCase,
   pathCase,
   sentenceCase,
-  'Sentence case': sentenceCase,
-  snake_case: snakeCase,
   snakeCase,
-  'Train-Case': trainCase,
+  snake_case: snakeCase,
   trainCase,
 } as const
 
