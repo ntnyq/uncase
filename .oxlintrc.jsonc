@@ -96,6 +96,7 @@
     {
       "files": ["**/*.config.{ts,mjs}"],
       "rules": {
+        "sort-keys": "warn",
         "import/no-default-export": "off",
       },
     },
@@ -126,6 +127,7 @@
         "typescript/prefer-ts-expect-error": "off",
         "typescript/require-array-sort-compare": "off",
         "vitest/no-importing-vitest-globals": "off",
+        "vitest/require-test-timeout": "off",
       },
     },
   ],
