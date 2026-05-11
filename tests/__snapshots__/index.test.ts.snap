@@ -1,6 +1,6 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`to CONSTANT_CASE 1`] = `
+exports[`core > to CONSTANT_CASE 1`] = `
 [
   {
     "caseType": "CONSTANT_CASE",
@@ -166,7 +166,7 @@ exports[`to CONSTANT_CASE 1`] = `
 ]
 `;
 
-exports[`to Capital Case 1`] = `
+exports[`core > to Capital Case 1`] = `
 [
   {
     "caseType": "Capital Case",
@@ -332,7 +332,7 @@ exports[`to Capital Case 1`] = `
 ]
 `;
 
-exports[`to Pascal_Snake_Case 1`] = `
+exports[`core > to Pascal_Snake_Case 1`] = `
 [
   {
     "caseType": "Pascal_Snake_Case",
@@ -498,7 +498,7 @@ exports[`to Pascal_Snake_Case 1`] = `
 ]
 `;
 
-exports[`to PascalCase 1`] = `
+exports[`core > to PascalCase 1`] = `
 [
   {
     "caseType": "PascalCase",
@@ -664,7 +664,7 @@ exports[`to PascalCase 1`] = `
 ]
 `;
 
-exports[`to Sentence case 1`] = `
+exports[`core > to Sentence case 1`] = `
 [
   {
     "caseType": "Sentence case",
@@ -830,7 +830,7 @@ exports[`to Sentence case 1`] = `
 ]
 `;
 
-exports[`to Train-Case 1`] = `
+exports[`core > to Train-Case 1`] = `
 [
   {
     "caseType": "Train-Case",
@@ -996,7 +996,7 @@ exports[`to Train-Case 1`] = `
 ]
 `;
 
-exports[`to camelCase 1`] = `
+exports[`core > to camelCase 1`] = `
 [
   {
     "caseType": "camelCase",
@@ -1162,7 +1162,7 @@ exports[`to camelCase 1`] = `
 ]
 `;
 
-exports[`to capitalCase 1`] = `
+exports[`core > to capitalCase 1`] = `
 [
   {
     "caseType": "capitalCase",
@@ -1328,7 +1328,7 @@ exports[`to capitalCase 1`] = `
 ]
 `;
 
-exports[`to constantCase 1`] = `
+exports[`core > to constantCase 1`] = `
 [
   {
     "caseType": "constantCase",
@@ -1494,7 +1494,7 @@ exports[`to constantCase 1`] = `
 ]
 `;
 
-exports[`to dot.case 1`] = `
+exports[`core > to dot.case 1`] = `
 [
   {
     "caseType": "dot.case",
@@ -1660,7 +1660,7 @@ exports[`to dot.case 1`] = `
 ]
 `;
 
-exports[`to dotCase 1`] = `
+exports[`core > to dotCase 1`] = `
 [
   {
     "caseType": "dotCase",
@@ -1826,7 +1826,7 @@ exports[`to dotCase 1`] = `
 ]
 `;
 
-exports[`to kebab-case 1`] = `
+exports[`core > to kebab-case 1`] = `
 [
   {
     "caseType": "kebab-case",
@@ -1992,7 +1992,7 @@ exports[`to kebab-case 1`] = `
 ]
 `;
 
-exports[`to kebabCase 1`] = `
+exports[`core > to kebabCase 1`] = `
 [
   {
     "caseType": "kebabCase",
@@ -2158,7 +2158,7 @@ exports[`to kebabCase 1`] = `
 ]
 `;
 
-exports[`to no case 1`] = `
+exports[`core > to no case 1`] = `
 [
   {
     "caseType": "no case",
@@ -2324,7 +2324,7 @@ exports[`to no case 1`] = `
 ]
 `;
 
-exports[`to noCase 1`] = `
+exports[`core > to noCase 1`] = `
 [
   {
     "caseType": "noCase",
@@ -2490,7 +2490,7 @@ exports[`to noCase 1`] = `
 ]
 `;
 
-exports[`to pascalCase 1`] = `
+exports[`core > to pascalCase 1`] = `
 [
   {
     "caseType": "pascalCase",
@@ -2656,7 +2656,7 @@ exports[`to pascalCase 1`] = `
 ]
 `;
 
-exports[`to pascalSnakeCase 1`] = `
+exports[`core > to pascalSnakeCase 1`] = `
 [
   {
     "caseType": "pascalSnakeCase",
@@ -2822,7 +2822,7 @@ exports[`to pascalSnakeCase 1`] = `
 ]
 `;
 
-exports[`to path/case 1`] = `
+exports[`core > to path/case 1`] = `
 [
   {
     "caseType": "path/case",
@@ -2988,7 +2988,7 @@ exports[`to path/case 1`] = `
 ]
 `;
 
-exports[`to pathCase 1`] = `
+exports[`core > to pathCase 1`] = `
 [
   {
     "caseType": "pathCase",
@@ -3154,7 +3154,7 @@ exports[`to pathCase 1`] = `
 ]
 `;
 
-exports[`to sentenceCase 1`] = `
+exports[`core > to sentenceCase 1`] = `
 [
   {
     "caseType": "sentenceCase",
@@ -3320,7 +3320,7 @@ exports[`to sentenceCase 1`] = `
 ]
 `;
 
-exports[`to snake_case 1`] = `
+exports[`core > to snake_case 1`] = `
 [
   {
     "caseType": "snake_case",
@@ -3486,7 +3486,7 @@ exports[`to snake_case 1`] = `
 ]
 `;
 
-exports[`to snakeCase 1`] = `
+exports[`core > to snakeCase 1`] = `
 [
   {
     "caseType": "snakeCase",
@@ -3652,7 +3652,7 @@ exports[`to snakeCase 1`] = `
 ]
 `;
 
-exports[`to trainCase 1`] = `
+exports[`core > to trainCase 1`] = `
 [
   {
     "caseType": "trainCase",

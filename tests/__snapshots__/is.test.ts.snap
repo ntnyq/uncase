@@ -1,6 +1,6 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`isCamelCase 1`] = `
+exports[`is > isCamelCase 1`] = `
 [
   {
     "description": "isCamelCase",
@@ -125,7 +125,7 @@ exports[`isCamelCase 1`] = `
 ]
 `;
 
-exports[`isCapitalCase 1`] = `
+exports[`is > isCapitalCase 1`] = `
 [
   {
     "description": "isCapitalCase",
@@ -250,7 +250,7 @@ exports[`isCapitalCase 1`] = `
 ]
 `;
 
-exports[`isConstantCase 1`] = `
+exports[`is > isConstantCase 1`] = `
 [
   {
     "description": "isConstantCase",
@@ -375,7 +375,7 @@ exports[`isConstantCase 1`] = `
 ]
 `;
 
-exports[`isDotCase 1`] = `
+exports[`is > isDotCase 1`] = `
 [
   {
     "description": "isDotCase",
@@ -500,7 +500,7 @@ exports[`isDotCase 1`] = `
 ]
 `;
 
-exports[`isKebabCase 1`] = `
+exports[`is > isKebabCase 1`] = `
 [
   {
     "description": "isKebabCase",
@@ -625,7 +625,7 @@ exports[`isKebabCase 1`] = `
 ]
 `;
 
-exports[`isNoCase 1`] = `
+exports[`is > isNoCase 1`] = `
 [
   {
     "description": "isNoCase",
@@ -750,7 +750,7 @@ exports[`isNoCase 1`] = `
 ]
 `;
 
-exports[`isPascalCase 1`] = `
+exports[`is > isPascalCase 1`] = `
 [
   {
     "description": "isPascalCase",
@@ -875,7 +875,7 @@ exports[`isPascalCase 1`] = `
 ]
 `;
 
-exports[`isPascalSnakeCase 1`] = `
+exports[`is > isPascalSnakeCase 1`] = `
 [
   {
     "description": "isPascalSnakeCase",
@@ -1000,7 +1000,7 @@ exports[`isPascalSnakeCase 1`] = `
 ]
 `;
 
-exports[`isPathCase 1`] = `
+exports[`is > isPathCase 1`] = `
 [
   {
     "description": "isPathCase",
@@ -1125,7 +1125,7 @@ exports[`isPathCase 1`] = `
 ]
 `;
 
-exports[`isSentenceCase 1`] = `
+exports[`is > isSentenceCase 1`] = `
 [
   {
     "description": "isSentenceCase",
@@ -1250,7 +1250,7 @@ exports[`isSentenceCase 1`] = `
 ]
 `;
 
-exports[`isSnakeCase 1`] = `
+exports[`is > isSnakeCase 1`] = `
 [
   {
     "description": "isSnakeCase",
@@ -1375,7 +1375,7 @@ exports[`isSnakeCase 1`] = `
 ]
 `;
 
-exports[`isTrainCase 1`] = `
+exports[`is > isTrainCase 1`] = `
 [
   {
     "description": "isTrainCase",
