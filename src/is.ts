@@ -48,8 +48,7 @@ function createCaseValidator(caseType: CaseType): CaseValidator {
  * @param input - input string
  * @returns true if camelCase, false otherwise
  */
-export const isCamelCase: CaseValidator = (input: string) =>
-  createCaseValidator('camelCase')(input)
+export const isCamelCase: CaseValidator = createCaseValidator('camelCase')
 
 /**
  * Check if given input string is in capitalCase
@@ -57,8 +56,7 @@ export const isCamelCase: CaseValidator = (input: string) =>
  * @param input - input string
  * @returns true if capitalCase, false otherwise
  */
-export const isCapitalCase: CaseValidator = (input: string) =>
-  createCaseValidator('capitalCase')(input)
+export const isCapitalCase: CaseValidator = createCaseValidator('capitalCase')
 
 /**
  * Check if given input string is in constantCase
@@ -66,8 +64,7 @@ export const isCapitalCase: CaseValidator = (input: string) =>
  * @param input - input string
  * @returns true if constantCase, false otherwise
  */
-export const isConstantCase: CaseValidator = (input: string) =>
-  createCaseValidator('constantCase')(input)
+export const isConstantCase: CaseValidator = createCaseValidator('constantCase')
 
 /**
  * Check if given input string is in dotCase
@@ -75,8 +72,7 @@ export const isConstantCase: CaseValidator = (input: string) =>
  * @param input - input string
  * @returns true if dotCase, false otherwise
  */
-export const isDotCase: CaseValidator = (input: string) =>
-  createCaseValidator('dotCase')(input)
+export const isDotCase: CaseValidator = createCaseValidator('dotCase')
 
 /**
  * Check if given input string is in kebabCase
@@ -84,8 +80,7 @@ export const isDotCase: CaseValidator = (input: string) =>
  * @param input - input string
  * @returns true if kebabCase, false otherwise
  */
-export const isKebabCase: CaseValidator = (input: string) =>
-  createCaseValidator('kebabCase')(input)
+export const isKebabCase: CaseValidator = createCaseValidator('kebabCase')
 
 /**
  * Check if given input string is in noCase
@@ -93,8 +88,7 @@ export const isKebabCase: CaseValidator = (input: string) =>
  * @param input - input string
  * @returns true if noCase, false otherwise
  */
-export const isNoCase: CaseValidator = (input: string) =>
-  createCaseValidator('noCase')(input)
+export const isNoCase: CaseValidator = createCaseValidator('noCase')
 
 /**
  * Check if given input string is in pascalCase
@@ -102,8 +96,7 @@ export const isNoCase: CaseValidator = (input: string) =>
  * @param input - input string
  * @returns true if pascalCase, false otherwise
  */
-export const isPascalCase: CaseValidator = (input: string) =>
-  createCaseValidator('pascalCase')(input)
+export const isPascalCase: CaseValidator = createCaseValidator('pascalCase')
 
 /**
  * Check if given input string is in pascalSnakeCase
@@ -111,8 +104,8 @@ export const isPascalCase: CaseValidator = (input: string) =>
  * @param input - input string
  * @returns true if pascalSnakeCase, false otherwise
  */
-export const isPascalSnakeCase: CaseValidator = (input: string) =>
-  createCaseValidator('pascalSnakeCase')(input)
+export const isPascalSnakeCase: CaseValidator =
+  createCaseValidator('pascalSnakeCase')
 
 /**
  * Check if given input string is in pathCase
@@ -120,8 +113,7 @@ export const isPascalSnakeCase: CaseValidator = (input: string) =>
  * @param input - input string
  * @returns true if pathCase, false otherwise
  */
-export const isPathCase: CaseValidator = (input: string) =>
-  createCaseValidator('pathCase')(input)
+export const isPathCase: CaseValidator = createCaseValidator('pathCase')
 
 /**
  * Check if given input string is in sentenceCase
@@ -129,8 +121,7 @@ export const isPathCase: CaseValidator = (input: string) =>
  * @param input - input string
  * @returns true if sentenceCase, false otherwise
  */
-export const isSentenceCase: CaseValidator = (input: string) =>
-  createCaseValidator('sentenceCase')(input)
+export const isSentenceCase: CaseValidator = createCaseValidator('sentenceCase')
 
 /**
  * Check if given input string is in snakeCase
@@ -138,8 +129,7 @@ export const isSentenceCase: CaseValidator = (input: string) =>
  * @param input - input string
  * @returns true if snakeCase, false otherwise
  */
-export const isSnakeCase: CaseValidator = (input: string) =>
-  createCaseValidator('snakeCase')(input)
+export const isSnakeCase: CaseValidator = createCaseValidator('snakeCase')
 
 /**
  * Check if given input string is in trainCase
@@ -147,8 +137,7 @@ export const isSnakeCase: CaseValidator = (input: string) =>
  * @param input - input string
  * @returns true if trainCase, false otherwise
  */
-export const isTrainCase: CaseValidator = (input: string) =>
-  createCaseValidator('trainCase')(input)
+export const isTrainCase: CaseValidator = createCaseValidator('trainCase')
 
 /**
  * Case validator

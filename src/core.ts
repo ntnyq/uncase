@@ -68,10 +68,9 @@ export type CaseType =
 /**
  * CaseType to case converter map
  */
-export const convertersMap: Record<
-  CaseType,
-  (value: string, options?: Options) => string
-> = {
+export const convertersMap: Readonly<
+  Record<CaseType, (value: string, options?: Options) => string>
+> = Object.freeze({
   CONSTANT_CASE: constantCase,
   'Capital Case': capitalCase,
   PascalCase: pascalCase,
@@ -95,7 +94,7 @@ export const convertersMap: Record<
   snakeCase,
   snake_case: snakeCase,
   trainCase,
-} as const
+})
 
 /**
  * Get a converter by caseType and convert the given input
@@ -121,11 +120,11 @@ export function getCaseConverter(
   caseType: CaseType,
   options: Options = {},
 ): CaseConverter {
-  const convert = convertersMap[caseType]
-
-  if (!convert) {
+  if (!Object.hasOwn(convertersMap, caseType)) {
     throw new Error(`Unknown caseType: ${caseType}`)
   }
+
+  const convert = convertersMap[caseType]
 
   return (input: string) => {
     const output = convert(input, options)
