@@ -69,15 +69,15 @@
     "change-case": "^5.4.4"
   },
   "devDependencies": {
-    "@types/node": "^26.2.0",
+    "@types/node": "^26.4.0",
     "@typescript/native-preview": "^7.0.0-dev.20260707.2",
     "@vitest/coverage-v8": "^4.1.11",
-    "bumpp": "^12.2.1",
+    "bumpp": "^12.2.2",
     "husky": "^9.1.7",
     "nano-staged": "^1.0.2",
     "npm-run-all2": "^9.0.3",
-    "oxfmt": "^0.64.0",
-    "oxlint": "^1.79.0",
+    "oxfmt": "^0.65.0",
+    "oxlint": "^1.80.0",
     "tsdown": "^0.22.14",
     "vitest": "^4.1.11"
   },
@@ -85,5 +85,5 @@
     "*.{js,ts,mjs,tsx}": "oxlint --fix",
     "*": "oxfmt --no-error-on-unmatched-pattern"
   },
-  "packageManager": "pnpm@11.23.0"
+  "packageManager": "pnpm@11.25.0"
 }
